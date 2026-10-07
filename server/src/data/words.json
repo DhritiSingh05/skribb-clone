@@ -1,0 +1,45 @@
+{
+  "categories": {
+    "animals": [
+      "dog", "cat", "elephant", "giraffe", "penguin", "lion", "tiger", "kangaroo",
+      "dolphin", "octopus", "shark", "chameleon", "zebra", "monkey", "panda",
+      "koala", "hedgehog", "crocodile", "flamingo", "parrot", "squirrel", "rabbit",
+      "sloth", "camel", "wolf", "bear", "eagle", "owl", "whale", "turtle", "crab",
+      "lobster", "snake", "frog", "hippo", "rhino", "cheetah", "peacock", "jellyfish",
+      "hamster", "otter", "beaver", "reindeer", "duck", "chicken", "pig", "cow", "horse"
+    ],
+    "objects": [
+      "telescope", "umbrella", "backpack", "clock", "camera", "guitar", "piano",
+      "laptop", "scissors", "toothbrush", "mirror", "candle", "flashlight", "chair",
+      "table", "lamp", "toaster", "refrigerator", "microwave", "television", "book",
+      "pencil", "paintbrush", "key", "sunglasses", "watch", "skateboard", "bicycle",
+      "headphones", "balloon", "kite", "trophy", "shield", "sword", "compass", "anchor",
+      "parachute", "helmet", "ladder", "basket", "pillow", "blanket", "broom", "shovel"
+    ],
+    "food": [
+      "pizza", "hamburger", "spaghetti", "sushi", "taco", "croissant", "pancake",
+      "waffle", "donut", "ice cream", "cookie", "cupcake", "apple", "banana", "watermelon",
+      "strawberry", "pineapple", "avocado", "broccoli", "carrot", "popcorn", "sandwich",
+      "burrito", "french fries", "cheese", "hotdog", "chocolate", "soup", "pie", "muffin"
+    ],
+    "actions": [
+      "surfing", "skateboarding", "juggling", "dancing", "swimming", "flying", "sleeping",
+      "crying", "laughing", "cooking", "singing", "fishing", "painting", "climbing",
+      "running", "reading", "whispering", "sneezing", "yawning", "diving", "skiing", "boxing"
+    ],
+    "nature": [
+      "volcano", "waterfall", "rainbow", "tornado", "thunderstorm", "island", "mountain",
+      "forest", "desert", "cave", "glacier", "galaxy", "sunset", "moon", "sun", "cloud",
+      "lightning", "ocean", "river", "beach", "cactus", "flower", "tree", "snowflake"
+    ],
+    "professions": [
+      "astronaut", "firefighter", "detective", "doctor", "chef", "pilot", "painter",
+      "police", "farmer", "pirate", "ninja", "wizard", "superhero", "clown", "scientist",
+      "mechanic", "dentist", "judge", "waiter", "magician", "diver", "lifeguard"
+    ],
+    "places": [
+      "castle", "pyramid", "lighthouse", "hospital", "school", "library", "airport",
+      "stadium", "amusement park", "zoo", "museum", "circus", "bakery", "hotel", "cinema"
+    ]
+  }
+}
