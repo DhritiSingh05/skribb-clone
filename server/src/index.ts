@@ -69,9 +69,9 @@ if (clientDistPath) {
   });
 }
 
-const PORT = process.env.PORT || 4000;
+const PORT = Number(process.env.PORT) || 4000;
 
-server.listen(PORT, () => {
+server.listen(PORT, "0.0.0.0", () => {
   console.log(`===============================================`);
   console.log(`🎨 skribbl.io Clone Server running on port ${PORT}`);
   console.log(`📡 WebSocket ready`);
