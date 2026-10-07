@@ -70,8 +70,8 @@ export const App: React.FC = () => {
   // Initialize Socket.IO connection
   useEffect(() => {
     const serverUrl = window.location.origin.includes('5173')
-      ? 'http://localhost:4000'
-      : window.location.origin;
+  ? 'http://localhost:4000'
+  : 'https://skribb-clone-1.onrender.com';
 
     const newSocket = io(serverUrl, {
       transports: ['websocket', 'polling'],
