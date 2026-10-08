@@ -44,10 +44,19 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
   const [isLoadingRooms, setIsLoadingRooms] = useState(false);
 
   // Fetch public rooms
+  
   const fetchPublicRooms = async () => {
     setIsLoadingRooms(true);
+
+    const serverUrl =
+      import.meta.env.VITE_SERVER_URL ||
+      (import.meta.env.DEV
+        ? 'http://localhost:4000'
+        : window.location.origin);
+
     try {
-      const res = await fetch('/api/rooms');
+      const res = await fetch(`${serverUrl}/api/rooms`);
+
       if (res.ok) {
         const data = await res.json();
         setPublicRooms(data.rooms || []);
@@ -58,6 +67,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
       setIsLoadingRooms(false);
     }
   };
+
 
   useEffect(() => {
     fetchPublicRooms();
