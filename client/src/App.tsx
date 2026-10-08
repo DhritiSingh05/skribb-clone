@@ -69,9 +69,10 @@ export const App: React.FC = () => {
 
   // Initialize Socket.IO connection
   useEffect(() => {
-    const serverUrl = window.location.origin.includes('5173')
-  ? 'http://localhost:4000'
-  : 'https://skribbl-clone-1.onrender.com';
+    const serverUrl = import.meta.env.VITE_SERVER_URL ||
+  (import.meta.env.DEV
+    ? 'http://localhost:4000'
+    : window.location.origin);
 
     const newSocket = io(serverUrl, {
       transports: ['websocket', 'polling'],
